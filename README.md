@@ -2,10 +2,8 @@
 
 A Java Swing desktop application that simulates classic **Operating System CPU scheduling algorithms**, **real-time scheduling algorithms**, and **disk scheduling algorithms**, with live visualizations (Gantt charts, progress bars, and XY line charts).
 
-Built as an **Operating Systems course project** — 4th Semester, Bachelor of Computer Engineering.
 
-![Schedule Screenshot](schedule.png)
-![Table Screenshot](table.png)
+![Main Dashboard](os-main-dashboard.png)
 
 ---
 
@@ -80,6 +78,8 @@ Both are simulated as periodic tasks: after a process finishes its burst, `RealT
 | **LOOK / C-LOOK** | Same sorted ordering as SCAN/C-SCAN in the current implementation |
 
 Requests are randomly generated (20 requests, cylinder range `0–199`, starting head position `100`) each time the algorithm dropdown changes, and the head movement is animated on a `javax.swing.Timer` (500 ms/tick) using a JFreeChart `XYSeriesCollection`.
+![Process Scheduler](os-process-scheduler.png)
+![Process Scheduler Output](os-process-scheduler-output.png)
 
 ---
 

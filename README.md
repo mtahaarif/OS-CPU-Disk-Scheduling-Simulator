@@ -79,7 +79,6 @@ Both are simulated as periodic tasks: after a process finishes its burst, `RealT
 
 Requests are randomly generated (20 requests, cylinder range `0–199`, starting head position `100`) each time the algorithm dropdown changes, and the head movement is animated on a `javax.swing.Timer` (500 ms/tick) using a JFreeChart `XYSeriesCollection`.
 ![Process Scheduler](os-process-scheduler.png)
-![Process Scheduler Output](os-process-scheduler-output.png)
 
 ---
 
@@ -152,6 +151,8 @@ Main (mode selector: Normal / Real-Time / Disk)
 1. `Main` → select "Disk Schedule" → `DiskSchedulingSimulation` opens directly with a live chart and algorithm dropdown (no separate input step — requests are randomly generated).
 
 ---
+![Process Scheduler Output](os-process-scheduler-output.png)
+
 
 ## Getting Started
 
